@@ -1,7 +1,7 @@
-import Login from "@/features/auth/Login";
-import Registration from "@/features/auth/Registration";
-import { Counter } from "@/features/counter/Counter";
-import { Quotes } from "@/features/quotes/Quotes";
+import Login from "@/features/auth/Login"
+import Registration from "@/features/auth/Registration"
+import { Counter } from "@/features/counter/Counter"
+import { Quotes } from "@/features/quotes/Quotes"
 
 export const publicRoutes = [
   {

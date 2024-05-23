@@ -1,10 +1,6 @@
 import { useAppDispatch, useAppSelector } from "@/app/hooks"
 import { NavLink } from "react-router-dom"
-import {
-  logout,
-  selectIsAuthenticated,
-  selectRoles,
-} from "@features/auth/authSlice"
+import { logout, selectIsAuthenticated, selectRoles } from "@features/auth/authSlice"
 import { ROLE } from "@/features/auth/types"
 
 export default function Navbar() {

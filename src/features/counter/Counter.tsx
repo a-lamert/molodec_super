@@ -9,7 +9,7 @@ import {
   incrementByAmount,
   incrementIfOdd,
   selectCount,
-  selectStatus,
+  selectStatus
 } from "./counterSlice"
 
 export const Counter = () => {
